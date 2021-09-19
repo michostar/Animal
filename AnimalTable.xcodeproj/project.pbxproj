@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		E2566D4026F52CC2003ACC8C /* AnimalTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2566D3E26F52CC2003ACC8C /* AnimalTable.xcdatamodeld */; };
 		E2566D4226F52CC5003ACC8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2566D4126F52CC5003ACC8C /* Assets.xcassets */; };
 		E2566D4526F52CC5003ACC8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2566D4326F52CC5003ACC8C /* LaunchScreen.storyboard */; };
+		E2566D4F26F52D89003ACC8C /* Animale.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2566D4E26F52D89003ACC8C /* Animale.swift */; };
+		E2566D5126F52DD3003ACC8C /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = E2566D5026F52DD3003ACC8C /* Data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E2566D4126F52CC5003ACC8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2566D4426F52CC5003ACC8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2566D4626F52CC5003ACC8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2566D4E26F52D89003ACC8C /* Animale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animale.swift; sourceTree = "<group>"; };
+		E2566D5026F52DD3003ACC8C /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				E2566D4326F52CC5003ACC8C /* LaunchScreen.storyboard */,
 				E2566D4626F52CC5003ACC8C /* Info.plist */,
 				E2566D3E26F52CC2003ACC8C /* AnimalTable.xcdatamodeld */,
+				E2566D4E26F52D89003ACC8C /* Animale.swift */,
+				E2566D5026F52DD3003ACC8C /* Data.json */,
 			);
 			path = AnimalTable;
 			sourceTree = "<group>";
@@ -106,7 +112,7 @@
 				};
 			};
 			buildConfigurationList = E2566D2D26F52CC2003ACC8C /* Build configuration list for PBXProject "AnimalTable" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -131,6 +137,7 @@
 				E2566D4526F52CC5003ACC8C /* LaunchScreen.storyboard in Resources */,
 				E2566D4226F52CC5003ACC8C /* Assets.xcassets in Resources */,
 				E2566D3D26F52CC2003ACC8C /* Main.storyboard in Resources */,
+				E2566D5126F52DD3003ACC8C /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2566D4F26F52D89003ACC8C /* Animale.swift in Sources */,
 				E2566D3A26F52CC2003ACC8C /* ViewController.swift in Sources */,
 				E2566D3626F52CC2003ACC8C /* AppDelegate.swift in Sources */,
 				E2566D4026F52CC2003ACC8C /* AnimalTable.xcdatamodeld in Sources */,

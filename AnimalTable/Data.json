@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Bat",
+        "id": 100
+    },
+    {
+        "name": "Bear",
+        "id": 101
+    },
+    {
+        "name": "Camel",
+        "id": 103
+    },
+    {
+        "name": "Cow",
+        "id": 104
+    },
+    {
+        "name": "Goat",
+        "id": 105
+    },{
+        "name": "Hamster",
+        "id": 106
+    },{
+        "name": "Horse",
+        "id": 107
+    },{
+        "name": "Kangaroo",
+        "id": 108
+    },{
+        "name": "Lion",
+        "id": 109
+    },{
+        "name": "Leopard",
+        "id": 110
+    }
+]
